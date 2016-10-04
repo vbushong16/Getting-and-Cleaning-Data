@@ -9,7 +9,7 @@ subdir = "Github\\Getting and Cleaning Data"
 # create directory if it doesn't exist yet
 dir.create(file.path(wkdir, subdir))
 setwd(file.path(wkdir, subdir))
-
+getwd()
 #zip file download to director
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url, destfile = "peer_review_data.zip")
